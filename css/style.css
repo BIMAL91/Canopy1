@@ -1,0 +1,33 @@
+/* Custom CSS for the background image */
+.bg-image {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh; /* 100% viewport height */
+    position: relative;
+    background-attachment: fixed;
+}
+
+/* Custom styles for the navigation bar */
+.navbar {
+    background-color: transparent;
+    margin: 0;
+    padding-top: 40px;
+}
+
+/* Center the content vertically and horizontally */
+.navbar .navbar-nav {
+    justify-content: center;
+}
+
+.black-text {
+    color: black;
+}
+.grey-bg {
+    background-color: #fdfbf8;
+    padding: 0px 10px; /* Adjust the padding to control the size of the background */
+    border-radius: 5px; /* Add rounded corners for a nice appearance */
+}
+.menu-item {
+    margin-right: 25px; /* Adjust the value to control the spacing */
+}
